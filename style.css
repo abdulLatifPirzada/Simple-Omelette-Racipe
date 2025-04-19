@@ -24,7 +24,8 @@ p {
 .container{
   
   background-color: var(--white);
-  width: 320px;
+  width: 400px;
+  object-fit: contain;
   /* height: 600px; */
   margin: auto;
   border-radius: 8px;
@@ -57,22 +58,22 @@ margin-right: 12px;
 }
 
 .description {
-
+display: flex;
  font-family: "Outfit";
   margin-left: 12px;
   margin-right: 12px;
   margin-bottom: 16px;
   color: var(--stone600);
+ 
 }
 .prepbox {
-  width: 300px;
+  /* width: ; */
   height: 120px;
 
   background-color: var(--rose50);
   margin-left: 12px;
   margin-right: 12px;
   border-radius: 8px;
-  
 }
 .preptime{
   font-family: "Outfit";
@@ -81,6 +82,8 @@ margin-right: 12px;
   margin-right: 12px;
   font-weight: bold;
   padding-top: 12px;
+  margin-bottom: -8px;
+ 
 }
 
 .prepbox ul{
@@ -90,6 +93,7 @@ margin-right: 12px;
 .prepbox p{
   font-family: "Outfit";
   color: black;
+ 
 }
 
 .ingredients{
